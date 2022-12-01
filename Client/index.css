@@ -1,0 +1,99 @@
+body {
+    position: relative;
+   
+}
+main {
+    background-color: rgb(227, 223, 214);
+    width: 2000px;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(164, 55, 61);
+    font-family: 'League Gothic';
+    font-size: 28px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'League Gothic';
+}
+
+#randomLegend {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    border: 2px solid rgb(164, 55, 61);
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'Aladin';
+    font-size: 20px;
+}
+
+#inputFields {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-field {
+    background-color: white;
+    font-family: 'Aladin';
+    font-size: 20px;
+}
+
+#addLegend {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'League Gothic';
+    font-size: 30px;
+}
+
+.legend-card {
+    background-color: rgb(217, 217, 217);
+    border: 2px solid rgb(164, 55, 61);
+    border-radius: 30px;
+    width: 500px;
+    padding: 10px;
+    margin: 25px;
+    
+}
+
+p {
+    font-family: 'Aladin';
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+
+#deleteBtn {
+    background-color: white;
+}
+
+#allLegends {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+}

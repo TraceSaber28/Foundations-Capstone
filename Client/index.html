@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://fonts.googleapis.com/css?family=League Gothic' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aladin" />
+    <title>Devmountain Capstone</title>
+</head>
+<body>
+    
+
+    <main>
+        <header>
+            <h1>Random Apex Legend Generator</h1>
+        </header>
+        <div>
+        <h4>Delete Any Legend You Don't Want To Get Or Add New Legends</h4>
+        </div>
+
+        <section id="randomLegend"> 
+        <button id="getRandomLegend">Get A Random Legend</button>
+        </section>
+        
+        <div id="inputFields">
+        <input id="name" class="input-field" placeholder="Lengend Name">
+        <input id="nickname" class="input-field" placeholder="Legend Nickname">
+        <input id="legendClass" class="input-field" placeholder="Legend Class">
+        <input id="image" class="input-field" placeholder="Image URL">
+        </div>
+        <section id="addLegend">
+        <button id="addLegend">Add Legend</button>
+        </section>
+
+        <h2>Legends List:</h2>
+        <section id="allLegends"></section>
+
+        
+
+       
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
