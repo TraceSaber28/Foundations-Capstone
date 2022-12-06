@@ -2,6 +2,7 @@ const addBtn = document.getElementById('addLegend')
 const displayLegends = document.getElementById('allLegends')
 const displayRandomLegend = document.getElementById('randomLegend')
 const getRandomBtn = document.getElementById('getRandomLegend')
+const displayBtn = document.getElementById('displayAll')
 
 const baseURL = 'http://localhost:5555'
 
@@ -88,6 +89,7 @@ const deleteLegend = (id) => {
 
 addBtn.addEventListener('click', addLegend)
 getRandomBtn.addEventListener('click', getRandomLegend)
+displayBtn.addEventListener('click',getAllLegends)
 
 getAllLegends()
 

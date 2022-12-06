@@ -92,6 +92,7 @@ p {
 }
 
 #allLegends {
+    background-color: rgb(227, 223, 214);
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
