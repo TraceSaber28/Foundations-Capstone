@@ -50,6 +50,7 @@ button {
 #inputFields {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .input-field {
